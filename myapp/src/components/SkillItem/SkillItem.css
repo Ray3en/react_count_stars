@@ -1,0 +1,21 @@
+.skill_elem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.stars_wrapper{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.active {
+    color: orange;
+}
